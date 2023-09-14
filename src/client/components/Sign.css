@@ -1,0 +1,13 @@
+.drop{
+    position: relative;
+    display: inline-block;
+    min-height: 100vh;
+}
+.drop_me{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.drop:hover .drop_me{
+    display:block;
+}
